@@ -1,0 +1,46 @@
+<div class="container-fluid">
+  <div class="row">
+    <!-- Toggle button for sidebar -->
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+      T
+    </button>
+
+    <!-- Sidebar -->
+    <nav id="sidebar" class="col-md-3 col-lg-2 bg-light sidebar collapse">
+      <div class="position-sticky">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/home" routerLinkActive="active">
+              <i class="bi bi-house"></i>
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/dashboard" routerLinkActive="active">
+              <i class="bi bi-speedometer2"></i>
+              Dashboard
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/about" routerLinkActive="active">
+              <i class="bi bi-file-earmark"></i>
+              Orders
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/products" routerLinkActive="active">
+              <i class="bi bi-cart"></i>
+              Products
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/customers" routerLinkActive="active">
+              <i class="bi bi-people"></i>
+              Customers
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
